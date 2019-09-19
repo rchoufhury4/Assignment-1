@@ -1,0 +1,87 @@
+body {
+    
+  background-image: url("blckcat.jpg");
+/*/background-color: #cccccc;*/
+height: 500px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: sans-serif;
+
+}
+
+img{
+  width: 100px;
+  height: 100px;
+}
+
+#quote{
+  background-color:lightpink;
+}
+
+.fav-word{
+  color: red;
+  font-weight: bold;
+}
+
+* {
+  color: purple;
+}
+
+#break{
+  margin-bottom: 30px;
+}
+
+  a:link {
+    color: pink;
+}
+
+  a:visited {
+    color: white;
+}
+
+ a:hover {
+    color: yellow;
+
+}
+  a:active {
+    color: blue;
+}
+
+#centered{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5%;
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th, td {
+  text-align: left;
+  padding: 16px;
+}
+
+tr:nth-child(1) {
+  background-color: #EC33FF
+}
+tr:nth-child(2) {
+  background-color: #CD5C5C
+}
+tr:nth-child(3) {
+  background-color: #FA8072
+}
+tr:nth-child(4) {
+  background-color: #FFA07A
+}
+tr:nth-child(5) {
+  background-color: #6233FF
+  }
+}
